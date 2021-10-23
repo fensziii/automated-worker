@@ -78,3 +78,19 @@
 
 
 ## how do we set time ?
+
+**example**
+
+```
+
+1d  = 1 day
+1h  = 1 hour
+1m  = 1 minute
+1s  = 1 seccond
+1ms = 1 milliseccond
+
+workers.create("name", "30m", fn, ["fn_args"], true);
+
+in this example the worker will run every 30 minutes
+
+```
