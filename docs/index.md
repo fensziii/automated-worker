@@ -18,6 +18,11 @@
 + `force`       force first function call
 
 
+
+======
+
+
+
 ## workers.run()
 > run workers
 
@@ -28,11 +33,21 @@
 + `undefined`
 
 
+
+======
+
+
+
 ## workers.getDataByName(name)
 > get data from worker
 
 **input**
 + `name`        worker name
+
+
+
+======
+
 
 
 ## workers.removeWorkerByName(name)
