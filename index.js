@@ -108,12 +108,10 @@ const worker = function () {
 
                 if(workers[key].force_fetch === true || time_difference[update_array[1]] === parseInt(update_array[0])){
 
-                    var data = await workers[key].command.fn.call(this, workers[key].command.args);
+                    var data = await workers[key].command.fn.call(this, ...workers[key].command.args);
 
                     workers[key].data = data;
-                    workers[key].size = JSON.stringify(data).length;
-
-                    console.log(new Date());
+                    workers[key].size = new String(data).length;
 
                     // Update worker time
                     workers[key].update_time = new Date();
