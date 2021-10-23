@@ -12,7 +12,7 @@
 
 **input**
 + `name`        set the worker name
-+ `update_time` set time to update (example: "1s" ) [d = days, h = hours, m = minutes, s = secconds, ms = millisecconds]
++ `update_time` set time to update **(example: `"1s"` )** __[d = days, h = hours, m = minutes, s = secconds, ms = millisecconds]__
 + `fn`          set function to run for worker
 + `fn_args`     set function args
 + `force`       force first function call
