@@ -7,6 +7,11 @@
 + **[workers.removeWorkerByName(name)](#workersremoveworkerbynamename)**
 
 
+<br>
+<br>
+<br>
+
+
 ## workers.create(name, update_time, fn, fn_args, force)
 > create a worker with this function
 
@@ -18,9 +23,9 @@
 + `force`       force first function call
 
 
-
-======
-
+<br>
+<br>
+<br>
 
 
 ## workers.run()
@@ -33,9 +38,9 @@
 + `undefined`
 
 
-
-======
-
+<br>
+<br>
+<br>
 
 
 ## workers.getDataByName(name)
@@ -45,9 +50,9 @@
 + `name`        worker name
 
 
-
-======
-
+<br>
+<br>
+<br>
 
 
 ## workers.removeWorkerByName(name)
