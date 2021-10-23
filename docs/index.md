@@ -45,7 +45,7 @@
 <br>
 
 
-## workers.getDataByName(name)
+## workers.getDataByName(`string`)
 > get data from worker
 
 **input**
@@ -60,7 +60,7 @@
 <br>
 
 
-## workers.removeWorkerByName(name)
+## workers.removeWorkerByName(`string`)
 > remove worker
 
 **input**
