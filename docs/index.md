@@ -5,6 +5,8 @@
 + **[workers.run()](#workersrun)**
 + **[workers.getDataByName(name)](#workersgetdatabynamename)**
 + **[workers.removeWorkerByName(name)](#workersremoveworkerbynamename)**
+**informations**
++ **[how do we set time]()**
 
 
 <br>
@@ -12,7 +14,7 @@
 <br>
 
 
-## workers.create(name, update_time, fn, fn_args, force)
+## workers.create(`string`, `string`, `fn`, `array`, `boolean`)
 > create a worker with this function
 
 **input**
