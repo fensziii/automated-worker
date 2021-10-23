@@ -1,10 +1,10 @@
 ## automated-worker docs
 
 **workers**
-+ **[workers.create(name, update_time, fn, fn_args, force)](#workerscreatename-update_time-fn-fn_args-force)**
++ **[workers.create(name, update_time, fn, fn_args, force)](#workerscreatestring-string-fn-array-boolean)**
 + **[workers.run()](#workersrun)**
-+ **[workers.getDataByName(name)](#workersgetdatabynamename)**
-+ **[workers.removeWorkerByName(name)](#workersremoveworkerbynamename)**
++ **[workers.getDataByName(name)](#workersgetdatabynamestring)**
++ **[workers.removeWorkerByName(name)](#workersremoveworkerbynamestring)**
 
 **informations**
 + **[how do we set time](#how-do-we-set-time-)**
