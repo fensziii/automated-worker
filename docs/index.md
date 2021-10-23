@@ -1,4 +1,10 @@
 ## automated-worker docs
 
 **workers**
-+ **workers.run()**
++ **workers.create(name, update_time, fn, fn_args, force)**
++ **workers.getDataByName()**
++ **workers.getDataByName()**
++ **workers.removeWorkerByName()**
+
+
+## workers.create(name, update_time, fn, fn_args, force)
