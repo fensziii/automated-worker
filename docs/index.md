@@ -5,6 +5,7 @@
 + **[workers.run()](#workersrun)**
 + **[workers.getDataByName(name)](#workersgetdatabynamename)**
 + **[workers.removeWorkerByName(name)](#workersremoveworkerbynamename)**
+
 **informations**
 + **[how do we set time]()**
 
