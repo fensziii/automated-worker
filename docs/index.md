@@ -2,9 +2,9 @@
 
 **workers**
 + **[workers.create(name, update_time, fn, fn_args, force)](#workerscreatename-update_time-fn-fn_args-force)**
-+ **[workers.run()](#workerscreatename-update_time-fn-fn_args-force)**
-+ **[workers.getDataByName(name)](#workerscreatename-update_time-fn-fn_args-force)**
-+ **[workers.removeWorkerByName(name)](#workerscreatename-update_time-fn-fn_args-force)**
++ **[workers.run()](#workersrun)**
++ **[workers.getDataByName(name)](#workersgetdatabynamename)**
++ **[workers.removeWorkerByName(name)](#workersremoveworkerbynamename)**
 
 
 ## workers.create(name, update_time, fn, fn_args, force)
