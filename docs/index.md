@@ -16,11 +16,11 @@
 > create a worker with this function
 
 **input**
-+ `name`        set the worker name
-+ `update_time` set time to update **(example: `"1s"` )** __[d = days, h = hours, m = minutes, s = secconds, ms = millisecconds]__
-+ `fn`          set function to run for worker
-+ `fn_args`     set function args
-+ `force`       force first function call
++ `string`  set the worker name
++ `string`  set time to update **(example: `"1s"` )** __[d = days, h = hours, m = minutes, s = secconds, ms = millisecconds]__
++ `fn`      set function to run for worker
++ `array`   set function args
++ `boolean` force first function call
 
 
 <br>
@@ -47,7 +47,10 @@
 > get data from worker
 
 **input**
-+ `name`        worker name
++ `string`  worker name
+
+**output**
++ `object`  data from worker
 
 
 <br>
@@ -59,4 +62,4 @@
 > remove worker
 
 **input**
-+ `name`        worker name
++ `string`  worker name
