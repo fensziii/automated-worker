@@ -15,13 +15,25 @@ Go here for Documentaion : [DOCS](docs/index.md)
 ## Example
 ```js
 
-(async ()=>{
+var Workers = require("automated-worker");
 
-    var Workers = require("automated-worker");
 
-    var runner  = worker();
 
-    runner.run(5000);
+const testFunction = (a, b) => {
+
+    console.log(a, b)
+
+};
+
+
+
+(async () => {
+
+    var runner  = Workers(); 
+
+    runner.run(100);
+
+    runner.create("test", "5s", testFunction, [ "test_arg", true ], true);  
 
 })();
 
