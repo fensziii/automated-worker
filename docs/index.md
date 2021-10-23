@@ -7,7 +7,7 @@
 + **[workers.removeWorkerByName(name)](#workersremoveworkerbynamename)**
 
 **informations**
-+ **[how do we set time]()**
++ **[how do we set time](#how-do-we-set-time-)**
 
 
 <br>
