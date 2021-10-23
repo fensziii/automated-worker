@@ -1,4 +1,4 @@
-var Workers = require("../index");
+var Workers = require("./../index");
 
 
 
