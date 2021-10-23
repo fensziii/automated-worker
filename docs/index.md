@@ -91,7 +91,6 @@
 
 workers.create("name", "30m", fn, ["fn_args"], true);
 
-
 ```
 
 > in this example the worker will run every 30 minutes
